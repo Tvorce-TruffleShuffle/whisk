@@ -1,0 +1,16 @@
+<script async="true" src="https://cdn.whisk.com/sdk/shopping-list.js" type="text/javascript"></script>
+<script>
+  var whisk = whisk || {};
+  whisk.queue = whisk.queue || [];
+
+  whisk.queue.push(function () {
+   whisk.shoppingList.defineWidget("PULX-CGPY-HULB-LARV", {
+      styles: {
+        type: "save-recipe",
+        size: "large",
+        linkColor: "#345DAE"
+      }
+    })
+   });
+
+</script>
